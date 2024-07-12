@@ -1,0 +1,23 @@
+.properties-container{
+ gap: 2rem;
+}
+.properties-container .search-bar{
+ /*\
+ min-width: 12rem;
+ default width : 100%
+ max-width: 28rem;
+ */
+  width: clamp(12rem, 100%, 28rem);
+  border-radius: 30px;
+  border: 1px solid rgba(120, 120, 120, 0.374); 
+  flex-wrap: nowrap;
+}
+.properties-container .search-bar .button{
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 30px;
+}
+.properties-container .search-bar input{
+  width: 70%;
+ 
+}
