@@ -10,7 +10,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "postinstall": "prisma generate",
-    "build": "prisma migrate deploy && prisma generate"
+    "build": "prisma generate && prisma migrate deploy"
   },
   "author": "",
   "license": "ISC",
