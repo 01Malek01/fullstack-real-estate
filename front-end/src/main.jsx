@@ -5,9 +5,7 @@ import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
-import CardHeader from '@mui/material/CardHeader'
-import Avatar from '@mui/material/Avatar'
-import IconButton from '@mui/material/IconButton'
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
